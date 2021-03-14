@@ -13,3 +13,7 @@ idea.txt
 backup
 augmented_clips
 
+*.tfrecords
+*.tar.xz
+hope.py
+Notebook1.py~
