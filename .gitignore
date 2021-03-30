@@ -12,8 +12,11 @@ __pycache__
 idea.txt
 backup
 augmented_clips
-
+spectrograms/
 *.tfrecords
 *.tar.xz
 hope.py
 Notebook1.py~
+results*
+test_augmented_clips/
+*.h5

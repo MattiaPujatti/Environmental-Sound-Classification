@@ -13,6 +13,14 @@ In the end, it will be shown that all those feature classifiers, without excepti
 
 ### Repository Content
 
+- [`Analysis_of_Sound_Features.ipynb`](Analysis_of_Sound_Features.ipynb) Notebook 1: presentation of the dataset, analysis of the sound clips contained in ESC50, preprocessing and augmentation of the audio tracks and preliminar presentation and analysis of the features that will represent our data in the successive classification tasks.
+
+- [`Features_Classification.ipynb`](Features_Classification.ipynb) Notebook 2: implementation and comparison of several machine learning methods (Random Forests, KNeighbors classifiers, Multi-Layer-Perceptrons, Support Vector Machines and Neural Networks) for the classification of the clips represented as "vectors of features".
+
+- [`Classification_via_CNN.ipynb`](Classification_via_CNN.ipynb) Notebook 3: classification of spectrograms using Convolutional Neural Networks (work in progress) 
+
+- [`Notebook1.py`](Notebook1.py) Collection of several utility functions implemented in the first notebook but that appear to be useful also in the successive ones.
+
 ### Results Achieved
 
 ### References
