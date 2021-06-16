@@ -20,3 +20,5 @@ Notebook1.py~
 results*
 test_augmented_clips/
 *.h5
+run/
+

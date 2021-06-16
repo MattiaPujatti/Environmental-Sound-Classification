@@ -1,0 +1,54 @@
+% !TEX root = report.tex
+
+\subsection{Nested Cross Validation}
+\label{app:nested_CV}
+
+A non-nested approach consists in using the same cross-validation procedure and data both to tune and select a model, but this is likely to lead to an optimistically biased evaluation of the model performance (because of information leakage). Nested Cross-Validation (Nested-CV) nests cross-validation and hyperparameter tuning exploiting two different KFold (or stratified KFold) splitting, such that in the inner loop the score is approximately maximized by fitting a model to each training set, and then directly maximized in selecting (hyper)parameters over the validation set; in the outer loop, instead, the generalization error is estimated by averaging test set scores over several dataset splits. Under this procedure, hyperparameter search does not have the opportunity of overfitting the dataset as it is only exposed to a subset of it, provided by the outer cross-validation. This reduces, if not eliminates, the risk overfitting and should provide a less biased estimate of a tuned model's performance on the dataset. Obviously, this does not come without any additional cost, since you dramatically increase the number of intermediate steps: if $n*k$ models are fit and evaluated as part of a traditional non-nested CV for a given model, then this number is increased to $k*n*k$ as the procedure is then performed k more times for each fold in the outer loop of nested CV.
+
+\subsection{Results of the GridSearch}
+\label{app:featclass_best_params}
+
+In this section we leave a brief recap of the combinations of hyperparameters, that we have found thanks to a nested cross validation applied to ESC-50, to guarantee the highest level in term of accuracy over the dataset.
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth}}
+		\toprule
+		\textbf{Model} & \textbf{Best hyperparameters} \\
+		\midrule
+		Random Forest & \begin{itemize} 
+			\item \textit{bootstrap}: True;
+			\item \textit{max\_depth}: 15;
+			\item \textit{n\_estimators}: 500.
+		\end{itemize} \\
+		\midrule
+		Multi-Layer Perceptron & \begin{itemize}
+			\item \textit{activation}: relu;
+			\item \textit{hidden\_layer\_sizes}: 512;
+			\item \textit{learning\_rate\_init}: 0.01;
+			\item \textit{solver}: adam.
+		\end{itemize} \\
+		\midrule
+		K-Neighbors Classifier  & \begin{itemize}
+			\item \textit{algorithm}: auto;
+			\item \textit{leaf\_size}: 10;
+			\item \textit{n\_neighbors}: 2;
+			\item \textit{weigths}: distance;
+		\end{itemize} \\
+		\midrule
+		Support Vector Machine  & \begin{itemize}
+			\item \textit{C}: 0.1;
+			\item \textit{kernel}: linear.
+		\end{itemize} \\
+		\midrule
+		Feed-Forward Network & \begin{itemize}
+			\item \textit{batch\_size}: 128;
+			\item \textit{epochs}: 150;
+			\item \textit{lr}: 0.001;
+			\item \textit{optimizer}: adamax.
+		\end{itemize} \\	
+		\bottomrule
+	\end{tabular}
+	\caption{Summary of the best combinations of hyperparameters for the features classifiers, found thanks to a nested CV.}
+	\label{tab:summay_best_params}
+\end{table}

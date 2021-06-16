@@ -1,0 +1,101 @@
+\begin{thebibliography}{10}
+
+\bibitem{piczak2015dataset}
+K.~J. Piczak, ``Esc: Dataset for environmental sound classification,'' in {\em
+  Proceedings of the 23rd Annual ACM Conference on Multimedia}, pp.~1015--1018,
+  ACM Press.
+
+\bibitem{urbansound8k}
+J.~Salamon, C.~Jacoby, and J.~P. Bello, ``A dataset and taxonomy for urban
+  sound research,'' in {\em Proceedings of the 22nd ACM International
+  Conference on Multimedia}, MM '14, (New York, NY, USA), p.~1041–1044,
+  Association for Computing Machinery, 2014.
+
+\bibitem{piczakgithub}
+karolpiczak, ``Esc-50: Dataset for environmental sound classification,'' 2015.
+
+\bibitem{piczak_cnn}
+K.~J. Piczak, ``Environmental sound classification with convolutional neural
+  networks,'' in {\em 2015 IEEE 25th International Workshop on Machine Learning
+  for Signal Processing (MLSP)}, pp.~1--6, 2015.
+
+\bibitem{freitag2017}
+M.~Freitag, S.~Amiriparian, S.~Pugachevskiy, N.~Cummins, and B.~W. Schuller,
+  ``audeep: Unsupervised learning of representations from audio with deep
+  recurrent neural networks,'' {\em CoRR}, vol.~abs/1712.04382, 2017.
+
+\bibitem{Huzaifah17}
+M.~Huzaifah, ``Comparison of time-frequency representations for environmental
+  sound classification using convolutional neural networks,'' {\em CoRR},
+  vol.~abs/1706.07156, 2017.
+
+\bibitem{soundnet}
+Y.~Aytar, C.~Vondrick, and A.~Torralba, ``Soundnet: Learning sound
+  representations from unlabeled video,'' {\em CoRR}, vol.~abs/1610.09001,
+  2016.
+
+\bibitem{boddapati2017}
+V.~Boddapati, A.~Petef, J.~Rasmusson, and L.~Lundberg, ``Classifying
+  environmental sounds using image recognition networks,'' {\em Procedia
+  Computer Science}, vol.~112, pp.~2048--2056, 2017.
+
+\bibitem{aclnet}
+J.~J. Huang and J.~J.~A. Leanos, ``Aclnet: efficient end-to-end audio
+  classification {CNN},'' {\em CoRR}, vol.~abs/1811.06669, 2018.
+
+\bibitem{ensemble_stacked_cnn}
+S.~Li, Y.~Yao, J.~Hu, G.~Liu, X.~Yao, and J.~Hu, ``An ensemble stacked
+  convolutional neural network model for environmental event sound
+  recognition,'' {\em Applied Sciences}, vol.~8, no.~7, 2018.
+
+\bibitem{mcfee2015librosa}
+B.~McFee, C.~Raffel, D.~Liang, D.~P. Ellis, M.~McVicar, E.~Battenberg, and
+  O.~Nieto, ``librosa: Audio and music signal analysis in python,'' in {\em
+  Proceedings of the 14th python in science conference}, vol.~8, 2015.
+
+\bibitem{salamon_bello}
+J.~Salamon and J.~P. Bello, ``Deep convolutional neural networks and data
+  augmentation for environmental sound classification,'' {\em CoRR},
+  vol.~abs/1608.04363, 2016.
+
+\bibitem{animal_augmentation}
+L.~Nanni, G.~Maguolo, and M.~Paci, ``Data augmentation approaches for improving
+  animal audio classification,'' {\em CoRR}, vol.~abs/1912.07756, 2019.
+
+\bibitem{alexnet}
+A.~Krizhevsky, I.~Sutskever, and G.~Hinton, ``Imagenet classification with deep
+  convolutional neural networks,'' {\em Neural Information Processing Systems},
+  vol.~25, 01 2012.
+
+\bibitem{vgg16}
+K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for
+  large-scale image recognition,'' in {\em 3rd International Conference on
+  Learning Representations, ICLR 2015, San Diego, CA, USA, May 7-9, 2015,
+  Conference Track Proceedings} (Y.~Bengio and Y.~LeCun, eds.), 2015.
+
+\bibitem{imagenet}
+O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
+  A.~Karpathy, A.~Khosla, M.~S. Bernstein, A.~C. Berg, and F.-F. Li, ``Imagenet
+  large scale visual recognition challenge,'' {\em CoRR}, vol.~abs/1409.0575,
+  2014.
+
+\bibitem{Zargham-2011}
+M.~Zargham, A.~Ribeiro, A.~Ozdaglar, and A.~Jadbabaie, ``{Accelerated dual
+  descent for network optimization},'' in {\em {American Control Conference}},
+  ({San Francisco, CA, US}), June 2011.
+
+\bibitem{tokozume_cnn}
+Y.~Tokozume and T.~Harada, ``Learning environmental sounds with end-to-end
+  convolutional neural network,'' in {\em 2017 IEEE International Conference on
+  Acoustics, Speech and Signal Processing (ICASSP)}, pp.~2721--2725, 2017.
+
+\bibitem{animal_audio_augment}
+L.~Nanni, G.~Maguolo, and M.~Paci, ``Data augmentation approaches for improving
+  animal audio classification,'' {\em CoRR}, vol.~abs/1912.07756, 2019.
+
+\bibitem{Park_2019}
+D.~S. Park, W.~Chan, Y.~Zhang, C.-C. Chiu, B.~Zoph, E.~D. Cubuk, and Q.~V. Le,
+  ``Specaugment: A simple data augmentation method for automatic speech
+  recognition,'' {\em Interspeech 2019}, Sep 2019.
+
+\end{thebibliography}

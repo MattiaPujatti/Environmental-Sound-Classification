@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{Processing Pipeline}{}% 3
+\BOOKMARK [1][-]{section.4}{Signals and Features}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Features extraction}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Silent Elimination}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Audio Augmentation}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Learning Framework}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{Features Classification}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{Spectrograms Classification}{section.5}% 10
+\BOOKMARK [1][-]{section.6}{Results}{}% 11
+\BOOKMARK [1][-]{section.7}{Concluding Remarks}{}% 12
+\BOOKMARK [1][-]{section*.12}{References}{}% 13
+\BOOKMARK [1][-]{section*.13}{Appendix}{}% 14
+\BOOKMARK [2][-]{subsection.Appendix.A.1}{Correlation matrix}{section*.13}% 15
+\BOOKMARK [2][-]{subsection.Appendix.A.2}{Nested Cross Validation}{section*.13}% 16
+\BOOKMARK [2][-]{subsection.Appendix.A.3}{Results of the GridSearch}{section*.13}% 17
+\BOOKMARK [2][-]{subsection.Appendix.A.4}{Further Analysis}{section*.13}% 18
+\BOOKMARK [3][-]{subsubsection.Appendix.A.4.1}{Impact of the dimensionality reduction}{subsection.Appendix.A.4}% 19
+\BOOKMARK [3][-]{subsubsection.Appendix.A.4.2}{Importance of the statistical estimators for the features distributions}{subsection.Appendix.A.4}% 20
+\BOOKMARK [3][-]{subsubsection.Appendix.A.4.3}{Importance of the silence removal step}{subsection.Appendix.A.4}% 21
