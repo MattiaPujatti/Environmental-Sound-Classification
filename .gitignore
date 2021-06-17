@@ -21,4 +21,4 @@ results*
 test_augmented_clips/
 *.h5
 run/
-
+*.zip

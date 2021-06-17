@@ -112,8 +112,8 @@
 \maketitle
 
 \begin{abstract}
-Future vehicular communication networks call for new solutions to support their capacity demands, by leveraging the potential of the \mbox{millimeter-wave} (\mbox{mm-wave}) spectrum. Mobility, in particular, poses severe challenges in their design, and as such shall be accounted for. A key question in \mbox{mm-wave} vehicular networks is how to optimize the \mbox{trade-off} between directive Data Transmission (DT) and directional Beam Training (BT), which enables it. In this paper, learning tools are investigated to optimize this \mbox{trade-off}. In the proposed scenario, a Base Station (BS) uses BT to establish a \mbox{mm-wave} directive link towards a Mobile User (MU) moving along a road. To control the BT/DT \mbox{trade-off}, a Partially Observable (PO) Markov Decision Process (MDP) is formulated, where the system state corresponds to the position of the MU within the road link. The goal is to maximize the number of bits delivered by the BS to the MU over the communication session, under a power constraint. The resulting optimal policies reveal that adaptive BT/DT procedures significantly outperform \mbox{common-sense} heuristic schemes, and that specific mobility features, such as user position estimates, can be effectively used to enhance the overall system performance and optimize the available system resources.\\ 
-
+Nowadays, the interest of the scientific community about the relation between machine learning and sound is mainly focused on speech recognition tasks, and less relevance is left to problems like environmental sound classification, also due to the scarcity of publicly large available datasets. In this paper we will present the main techniques developed so far for this kind of tasks, applied over an environmental sounds collection known as ESC-50. We are going onto two parallel directions, showing how those audio files can be represented as vectors of high-level sound features, and then showing how the usage of Convolutional Neural Networks has revolutionized the classification framework, proposing itself as an alternative to the traditional methods. In particular, regarding the first approach, we propose a preprocessing pipeline together with a nested cross-validation, aimed at gaining the highest accuracy possible, together with a reliable statistics of the results. This proposal will be successful, in our implementation, since it will be shown to guarantee better performances than the actual (non-CNN) state of the art.
+ \footnote{For the practical Python implementation, and for a step-by-step analysis of the problem, please refer to the official Github repository: \url{https://github.com/MattiaPujatti/Environmental-Sound-Classification}.}\\
 \end{abstract}
 
 \IEEEkeywords
@@ -131,11 +131,14 @@ Supervised Learning, Neural Networks, Audio Classification, Nested Cross Validat
 
 \input{conclusions}
 
+
+
 \nocite{*}
 \bibliography{biblio}
 \bibliographystyle{ieeetr}
 
-\newpage
+\clearpage
+
 \appendix
 
 \input{appendix_feat_corr_matrix}
