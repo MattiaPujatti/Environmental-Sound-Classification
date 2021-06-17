@@ -1,6 +1,6 @@
 # Environmental-Sound-Classification
 
-###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Dataset](#Dataset) | [Repository content](#Repository-Content) | [Results](#Results-Achieved) | [References](#References)
+###### [Overview](#esc-50-dataset-for-environmental-sound-classification) | [Dataset](#Dataset) | [Repository content](#Repository-Content) | [Results](#Results-Achieved) 
 
 <img src="example_clip.png" alt="ESC-50 clip preview" title="ESC-50 clip preview" align="right" width=350 />
 
@@ -53,6 +53,6 @@ To summarize all the results that we have achieved:
 
 * features vectors methods are much faster and less memory demanding with respect to the others, even if they are quite limited in term of the classification accuracy that can be achieved;
 
-* thanks to the preprocessing pipeline, and the nested cross validation implemented, we effectively managed to overcome the highest accuracy value reported in Piczak's Github page not exploiting Convolutional networks (FFN 70.60% > 64.30 RNN + MLP);
+* thanks to the preprocessing pipeline, and the nested cross validation implemented, we effectively managed to overcome the highest accuracy value reported in Piczak's Github page not exploiting Convolutional networks (FFN 70.60% > 64.30% RNN + MLP);
 
 * we didn't manage to overcome the human classification accuracy (81.30%) even exploiting CNN; however, we definitely proved that traditional image augmentation techniques bring to better results than augmenting directly the audio clips.
